@@ -21,7 +21,7 @@ export async function getPostDetails(postId) {
             description: "TaskMate empowers personal productivity with features like dynamic task creation, flexible status updating, powerful search/filtering, and real-time refresh. Leveraging Spring Boot, MySQL, and a Tailwind-styled JavaScript frontend, it delivers a seamless user experience for organizing and tracking tasks.",
             myRole: "Designed and developed backend REST APIs and frontend modules for core features including task search, update, and bulk delete. Implemented JPA specification-driven queries, integrated real-time updates, and crafted a responsive, attractive UI.",
             logo: null,
-            projectSharingImg: "/images/sharing/projects/taskmate.png",
+            projectSharingImg: "/images/sharing/projects/taskmate.jpg",
             images: null,
             projectLinks: [
                 { name: "Repository", url: "https://github.com/Spicydark/To-Do-List" }
@@ -46,7 +46,7 @@ export async function getPostDetails(postId) {
             description: "CreaSynth leverages cutting-edge AI models to deliver three distinct modules—interactive chat assistant (GPT), DALL-E-based image generation, and custom recipe guidance. The application is architected with Spring Boot backend services and React frontend for rich user interaction, providing RESTful endpoints and modular components for seamless communication and feature usage.",
             myRole: "Led full-stack feature development, integrating OpenAI services, architecting scalable REST endpoints, and building dynamic React components. Prioritized usability, modular design, and secure API integration to provide a robust and extensible AI platform.",
             logo: null,
-            projectSharingImg: "/images/sharing/projects/creasynth.png",
+            projectSharingImg: "/images/sharing/projects/creasynth.jpg",
             images: null,
             projectLinks: [
                 { name: "Repository", url: "https://github.com/Spicydark/Chat-Bot" }
@@ -71,7 +71,7 @@ export async function getPostDetails(postId) {
             description: "EcomFlow amalgamates modern web technologies to enable robust product and category management, dynamic cart operations, real-time updates, and visually appealing navigation. With Spring Boot powering the backend and React/Vite shaping the frontend, the system offers secure RESTful APIs, integrated image handling, and scalable development for efficient online retail.",
             myRole: "Developed backend APIs and frontend components for product, cart, and admin modules. Implemented core business logic, responsive UI design, optimized performance, and maintained best practices for code quality and scalability.",
             logo: null,
-            projectSharingImg: "/images/sharing/projects/ecomflow.png",
+            projectSharingImg: "/images/sharing/projects/ecomflow.jpg",
             images: null,
             projectLinks: [
                 { name: "Repository", url: "https://github.com/Spicydark/E-Commerce" }
@@ -96,7 +96,7 @@ export async function getPostDetails(postId) {
             description: "ResourceHive streamlines the oversight of campus assets with features such as real-time dashboards, role-based access for students and administrators, secure authentication, and user-friendly interfaces. Its three-tier architecture (React frontend, Spring Boot backend, MySQL database) supports scalable, analytics-driven management for educational institutions.",
             myRole: "Led backend and frontend architecture, implemented asset and request tracking modules, enforced security with JWT and role-based access, designed responsive UI, and optimized performance across deployment environments.",
             logo: null,
-            projectSharingImg: "/images/sharing/projects/resourcehive.png",
+            projectSharingImg: "/images/sharing/projects/resourcehive.jpg",
             images: null,
             projectLinks: [
                 { name: "Repository", url: "https://github.com/Spicydark/Campus_Asset_Manager" }
@@ -122,7 +122,7 @@ export async function getPostDetails(postId) {
             description: "TalentNest streamlines recruitment operations with independent microservices for authentication, job management, and candidate profiles. The system ensures secure access via JWT authentication, scalable service discovery using Eureka, and seamless inter-service communication. MongoDB is used for data persistence and email notifications are automated using Gmail SMTP.",
             myRole: "Led backend microservices development and architecture. Implemented service discovery, API gateway, JWT-based authentication, and communication flows. Integrated MongoDB storage and automated notification services while ensuring scalability and security.",
             logo: null,
-            projectSharingImg: "/images/sharing/projects/talentnest.png",
+            projectSharingImg: "/images/sharing/projects/talentnest.jpg",
             images: null,
             projectLinks: [
                 { name: "Repository", url: "https://github.com/Spicydark/Hiring-Platform_Microservice-Application" }

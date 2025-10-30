@@ -34,7 +34,7 @@ export async function generateMetadata({ params }) {
             url: `/projects/${resolvedParams.project}`,
             images: [
                 {
-                    url: project.projectSharingImg || "/images/sharing/portfolio-og-image.png",
+                    url: project.projectSharingImg || "/images/sharing/portfolio-og-image.jpg",
                     width: 1200,
                     height: 630,
                     alt: `${project.title} - Project by Surya K`
@@ -45,7 +45,7 @@ export async function generateMetadata({ params }) {
             card: "summary_large_image",
             title: `${project.title} - Surya K`,
             description: project.summary,
-            images: [project.projectSharingImg || "/images/sharing/portfolio-og-image.png"]
+            images: [project.projectSharingImg || "/images/sharing/portfolio-og-image.jpg"]
         },
         alternates: {
             canonical: `/projects/${resolvedParams.project}`

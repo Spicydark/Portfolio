@@ -24,7 +24,7 @@ const roboto = Roboto({
 
 // Global metadata
 export const metadata = {
-  metadataBase: new URL('https://karthikshetty.info'),
+  metadataBase: new URL('https://spicydark-portfolio.vercel.app/'),
   title: "Surya K | Full Stack Developer & Web Development Portfolio",
   description: "Professional portfolio of Surya K, experienced Full Stack Developer specializing in Java, Spring, React, MySQL, MongoDB, Git, HTML, CSS, JavaScript, BootStrap and modern web development. View my projects, skills, and development experience.",
   keywords: "Surya K, full stack developer, java developer, web developer, portfolio, React developer, JavaScript engineer, frontend development, backend development, responsive web design, React, Java, SpringBoot, Microservices, MySQL, Git, HTML, CSS, JavaScript, BootStrap, Docker, RESTful APIs, web applications, software development",
@@ -37,7 +37,7 @@ export const metadata = {
     siteName: "Surya K Portfolio",
     images: [
       {
-        url: "/images/sharing/portfolio-og-image.png",
+        url: "/images/sharing/portfolio-og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Surya K - Full Stack Developer"
@@ -49,7 +49,7 @@ export const metadata = {
     title: "Surya K | Full Stack Developer",
     description: "Check out my portfolio showcasing web development projects and full stack expertise",
     creator: "@Spicy__Dark",
-    images: ["/images/sharing/portfolio-og-image.png"]
+  images: ["/images/sharing/portfolio-og-image.jpg"]
   },
   robots: {
     index: true,
