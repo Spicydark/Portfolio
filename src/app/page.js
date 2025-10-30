@@ -280,14 +280,13 @@ export default function Home() {
             <div className={HOMECSS.about_content}>
               <p>01.01 &nbsp;&nbsp;&nbsp;&nbsp;About me</p>
               <p>
-                With a strong background in <strong>backend development</strong>,
-                , I love architecting robust, scalable solutions. My expertise lies in the <strong>Java and Spring Boot ecosystem</strong>—building secure <strong>RESTful APIs</strong>, designing <strong>microservice</strong> architectures, managing data with <strong>Hibernate/JPA</strong>. My experience with <strong>React.js</strong> allows me to connect this backend logic to responsive, user-friendly interfaces, making me a capable full-stack developer. I am always focused on writing clean, maintainable code.
+                With a strong background in <strong>backend development</strong>, I love architecting robust, scalable solutions. My expertise lies in the <strong>Java and Spring Boot ecosystem</strong>—building secure <strong>RESTful APIs</strong>, designing <strong>microservice</strong> architectures, managing data with <strong>Hibernate/JPA</strong>. My experience with <strong>React.js</strong> allows me to connect this backend logic to responsive, user-friendly interfaces, making me a capable full-stack developer. I am always focused on writing clean, maintainable code.
               </p>
             </div>
 
             <div className={HOMECSS.about_content}>
               <p>01.02 &nbsp;&nbsp;&nbsp;&nbsp;I&apos;m</p>
-              <p>Constantly learning and improving. As a developer certified in<strong>Java and Agile</strong>, I aim to create impactful applications that solve real-world problems. I am actively seeking development roles where I can contribute to a collaborative team and build seamless user experiences.
+              <p>Constantly learning and improving. As a developer certified in <strong>Java and Agile</strong>, I aim to create impactful applications that solve real-world problems. I am actively seeking development roles where I can contribute to a collaborative team and build seamless user experiences.
               </p>
             </div>
           </div>
