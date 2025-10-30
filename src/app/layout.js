@@ -49,7 +49,7 @@ export const metadata = {
     title: "Surya K | Full Stack Developer",
     description: "Check out my portfolio showcasing web development projects and full stack expertise",
     creator: "@Spicy__Dark",
-  images: ["/images/sharing/portfolio-og-image.png"]
+    images: ["/images/sharing/portfolio-og-image.png"]
   },
   robots: {
     index: true,
@@ -86,15 +86,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-9J1RVTSWHQ" />
-        <Script id='google-analytics' strategy='afterInteractive'>{`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-      
-        gtag('config', 'G-9J1RVTSWHQ');
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-L9WLXD288X" />
+        <Script id="google-analytics" strategy="afterInteractive">{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-L9WLXD288X');
         `}</Script>
-        <meta name="google-site-verification" content="cCP8Kw8vPOGAi55eKNzp5ob1QtdHelpWTMyJPSkRCgU" />
+        <meta name="google-site-verification" content="EvIVedFo_Iyo_aDGzoxOUd06FsjaycOVOYwbz37lEOk" />
       </head>
       <body className={`${poppins.variable} ${roboto.variable}`}>
         <NavbarUi />
