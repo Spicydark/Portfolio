@@ -1,0 +1,216 @@
+/* NAVBAR COMPONENT STYLES */
+.float_nav {
+    position: fixed;
+    right: 30px;
+    top: 41px;
+    padding-bottom: 10px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+
+.theme_div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: var(--font-family-secondary);
+    color: var(--foreground-05);
+    letter-spacing: 2px;
+    font-size: 14px;
+    transition: all 450ms ease-in-out;
+}
+
+.theme_div.only_menu {
+    transform: scale(0);
+    opacity: 0;
+}
+
+/* Theme toggle button */
+.dark_light_btn {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin-right: 15px;
+    border: none;
+    background-color: transparent;
+    transition: all 0.7s ease;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/* Theme toggle button hover effect */
+.theme_div:hover .dark_light_btn {
+    rotate: -90deg;
+}
+
+.dark_light_btn span {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.dark_light_btn span svg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--foreground);
+}
+
+/* Menu Button Styles */
+/* Controls the appearance of the menu toggle button */
+.menu_div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: var(--font-family-secondary);
+    color: var(--foreground-05);
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+/* Side Navigation Styles */
+/* Controls the appearance and animation of the navigation panel */
+.side_nav {
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 998;
+    width: 100%;
+    height: 100dvh;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 450ms ease-in-out;
+    /* Prevent interaction when hidden */
+    pointer-events: none;
+}
+
+/* Visible state of navigation overlay */
+.side_nav.show {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.548);
+    /* Enable interaction when visible */
+    pointer-events: auto;
+}
+
+/* Navigation panel container */
+.hold_nav {
+    transform: scaleX(0);
+    transform-origin: right;
+    float: right;
+    width: min(80%, 500px);
+    height: 100vh;
+    background-color: var(--background);
+    transition: all 650ms ease-in-out;
+    /* Add overflow handling for small screens */
+    overflow-y: auto;
+}
+
+/* Visible state of navigation panel */
+.hold_nav.show {
+    transform: scaleX(1);
+}
+
+/* Navigation menu list */
+.show_menu_values {
+    width: fit-content;
+    margin-top: 20vh;
+    margin-left: 8vw;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0;
+    /* Ensure no default padding */
+}
+
+/* Navigation list items */
+.hold_nav .show_menu_values li {
+    transform: scaleY(0);
+    transform-origin: bottom;
+    font-size: 3rem;
+    list-style: none;
+    font-weight: 800;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 950ms ease-in-out;
+    margin: 0.5rem 0;
+    /* Add consistent spacing between items */
+}
+
+/* Animation for list items when menu is shown */
+.hold_nav.show .show_menu_values li {
+    transform: scaleY(1);
+}
+
+/* Arrow icon visibility */
+.show_menu_values li svg {
+    margin-right: 10px;
+    opacity: 0;
+    visibility: hidden;
+    color: var(--foreground);
+    transition: opacity 350ms ease-in-out, visibility 550ms ease-in-out, color 250ms ease-in-out;
+}
+
+/* Hover effects for navigation items */
+.show_menu_values li:hover {
+    text-shadow: 0 0 20px var(--brand-primary);
+}
+
+/* Show arrow on hover */
+.show_menu_values li:hover svg {
+    opacity: 1;
+    visibility: visible;
+    color: var(--brand-primary);
+}
+
+/* Make navigation links full width for better touch targets */
+.show_menu_values li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    line-height: 0;
+    padding: 1rem 0;
+}
+
+/* Responsive adjustments */
+
+@media only screen and (max-width: 1000px) {
+
+    /* Adjust nav position */
+    .float_nav {
+        right: 20px;
+    }
+}
+
+/* Optimize layout for smaller screens */
+@media only screen and (max-width: 600px) {
+
+    /* Adjust nav position */
+    .float_nav {
+        top: 38px;
+    }
+
+    /* Hover color effect for hamburger bars */
+    #navIcon:hover .span_icon {
+        background: var(--foreground);
+    }
+
+    /* Adjust menu content */
+    .show_menu_values {
+        margin-top: 20vh;
+        margin-left: 5vw;
+    }
+
+    /* Navigation list items */
+    .hold_nav .show_menu_values li {
+        font-size: 2.2rem;
+    }
+}
